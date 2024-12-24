@@ -1,0 +1,30 @@
+# Ignore IntelliJ IDEA specific files
+.idea/
+*.iml
+
+# Ignore build output directories
+/out/
+build/
+
+# Ignore user-specific and system-specific files
+*.log
+*.class
+*.war
+*.jar
+*.ear
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore .mvn directory for Maven projects
+.mvn/
+
+# Ignore gradle wrapper files
+.gradle/
+build/
+
+# Ignore node_modules for front-end projects (if using Node.js)
+node_modules/
+
+# Ignore test output directories (if using testing frameworks)
+test-output/
