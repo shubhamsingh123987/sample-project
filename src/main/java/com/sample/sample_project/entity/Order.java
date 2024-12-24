@@ -18,7 +18,7 @@ public class Order {
     private BigDecimal totalAmount;
 
     @Enumerated(EnumType.STRING)
-    private String status;
+    private String status_api;
 
     private LocalDateTime createdAt;
 }
